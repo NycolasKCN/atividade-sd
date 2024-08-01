@@ -17,7 +17,7 @@ public class TCPClient {
         output = new DataOutputStream(socket.getOutputStream());
 
         // Espera mensagem ser digitada da entrada padrão (teclado)
-        System.out.println("[C2] Conexão estabelecida, eu sou o cliente: " + socket.getLocalSocketAddress());        
+        System.out.println("[C2] Conexao estabelecida, eu sou o cliente: " + socket.getLocalSocketAddress());        
 
         MessageHandler msgHandler = new MessageHandler(input);
         msgHandler.start();

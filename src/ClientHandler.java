@@ -45,7 +45,7 @@ class ClientHandler extends Thread {
 
     private void setUsername() {
         try {
-            this.out.writeUTF("Escreva seu nome de usuário:");
+            this.out.writeUTF("Escreva seu nome de usuario:");
             this.username = in.readUTF();
             this.out.writeUTF("Envie uma mensagem: ");
         } catch (EOFException e) {
@@ -61,7 +61,7 @@ class ClientHandler extends Thread {
             out.writeUTF(message);
             out.writeUTF("Envie uma mensagem: ");
         } catch (IOException e) {
-            System.out.println("readline:" + e.getMessage());
+            
         }
     }
 }
