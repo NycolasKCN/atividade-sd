@@ -3,6 +3,8 @@
 
 Atividade realizada para a disciplina de Sistemas Distribuídos, que consiste em modificar um código fornecido pelo professor para desenvolver um bate-papo em linha de comando, utilizando sockets TCP.
 
+O sistema permite que múltiplos clientes se comuniquem entre si. Para isso, o servidor recebe a mensagem de um dos clientes e a repassa para todos os outros clientes conectados.
+
 ## Pré-requisitos
 
 - `git`
